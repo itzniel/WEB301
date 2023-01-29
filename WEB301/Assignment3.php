@@ -22,7 +22,7 @@
 	<body>
  
 		<div id="container">
-			<div id="nav"></div>
+			<div id="nav"><?php include('includes/Header.php'); ?> </div>
 			<div id="main"></div>
 			<div id="column1"></div>
       <div id="column2"></div>
