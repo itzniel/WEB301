@@ -4,14 +4,17 @@
 <html>
 <head>
     <title>Header</title>
+    <style>
+		<?php include('css/Main.css'); ?> 
+		</style>
 </head>
 <body>
     
     <nav>
-    <ul>
-        <li>Home</li>
-        <li>Competition</li>
-        <li>World cup</li>
+    <ul class="nav">
+        <li><a href="Homepage.php">Home</a> </li>
+        <li><a href="MajorCompetition.php">Competition</a></li>
+        <li><a href="Worldcup.php">World cup</a></li>
     </ul>
 </nav>
 

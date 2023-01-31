@@ -1,13 +1,37 @@
-#container { max-width: 960px; margin: 0 auto; display: block; }
-			#nav { width: 99.6%; height: 75px; background-color: rgb(170, 40, 40); }
+
+#container { max-width: 960px; margin: 0 auto; display: block; font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+			#nav { width: 99.6%; height: 75px; background-color: aquamarine;
+			 }
 			#main { width: 99.6%; height: 500px; background-image: url(https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg); object-fit: cover; background-size:cover; }
-			#column1 { width: 49.6%; height: 200px; background-color: rgba(134, 132, 122, 0.688); display: inline-block; }
-			#column2 { width: 49.6%; height: 200px; background-color: rgb(147, 22, 22); ; display: inline-block; }	
+			#column1 { width: 49.6%; height: 200px; background-color: rgba(217, 77, 30, 0.688); display: inline-block; }
+			#column2 { width: 49.6%; height: 200px; background-color:aquamarine; display: inline-block; }
+			
+			#main1 img { width: 99.6%; height: 530px; object-fit: cover; background-size:cover; }
+			#main2 img{ width: 99.6%; height: 500px; object-fit: cover; background-size:cover; }
+			
+			.nav li
+			 {
+				display: inline;
+				width: 31%;
+				float: left;
+				font-size: 30px;
 				
+			}
+			.nav{
+				margin: 3% 0% 0% 0%;
+				margin: 0 auto;
+			}
+			a {text-decoration: none;
+			color: rgba(0, 0, 0, 0.72);}
+				  	
+			
 			
 			@media screen and (max-width: 639px) {
 				#container { width: 100%; }
-				#main { width: 100%; height: 300px;  }
+				#main { width: 100%; height: 350px;  }
 				#column1 { width: 100%; height: 150px; background-color: rgba(134, 132, 122, 0.688); }
-				#column2 { width: 100%; height: 150px; background-color:rgb(147, 22, 22);  }		
+				#column2 { width: 100%; height: 150px; background-color:aquamarine;  }		
 			}
+
+			#footer{text-align: center;
+			height: 50px; background-color: aquamarine;}
