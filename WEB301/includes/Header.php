@@ -7,17 +7,31 @@
     <style>
 		<?php include('css/Main.css'); ?> 
 		</style>
+        <script src="js/script.js"></script>
 </head>
 <body>
-    
-    <nav>
-    <ul class="nav">
-        <li><a href="Homepage.php">Home</a> </li>
-        <li><a href="MajorCompetition.php">Competition</a></li>
-        <li><a href="Worldcup.php">World cup</a></li>
+ <header class ="row">
+<div class="col-2"> <a href ="index.php"><img src="images/logo.jpg" alt="logo"></a></div>
+ 
+ <div class="col-10"> 
+<nav class ="nav">
+   
+    <div id="mobilenav">
+                    <a href="#" id="navtoggle">&#9776;</a>
+                </div>
+                <div id="mainnav">
+     <ul>
+                    <li><a href="index.php">Home</a> </li>
+                    <li><a href="majorCompetition.php">Competition</a></li>
+                    <li><a href="worldcup.php">World cup</a></li>
+            
     </ul>
 </nav>
+</div>
+   
+</header>
 
     
 </body>
+
 </html>
