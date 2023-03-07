@@ -7,7 +7,8 @@
     <style>
 		<?php include('css/Main.css'); ?> 
 		</style>
-        <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
 </head>
 <body>
  <header class ="row">
@@ -24,7 +25,7 @@
                     <li><a href="index.php">Home</a> </li>
                     <li><a href="majorCompetition.php">Competition</a></li>
                     <li><a href="worldcup.php">World cup</a></li>
-            
+                    <li><a href="contactUs.php">Contact Us</a></li>
     </ul>
 </nav>
 </div>
